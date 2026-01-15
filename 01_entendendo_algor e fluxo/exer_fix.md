@@ -3,7 +3,7 @@
 <h3>Algoritmo de assar um pão</h3>
 &nbsp;
 <p align="center">
-  <img src="C:\Users\arfur\Documents\blip_log_prog_DIO\01_entendendo_algor e fluxo\Diagrama_ASSAR.png" alt="Descrição" width="400">
+  <img src="Diagrama_ASSAR.png" alt="Descrição" width="400">
 </p>
 <br>
 <br>
@@ -42,5 +42,5 @@ Algoritmo celular decarregado
 &nbsp;
 &nbsp;
 <p align="center">
-  <img src="C:\Users\arfur\Documents\blip_log_prog_DIO\01_entendendo_algor e fluxo\Diagrama_sign.png" alt="Descrição" width="400">
+  <img src="Diagrama_sign.png" alt="Descrição" width="400">
 </p>
