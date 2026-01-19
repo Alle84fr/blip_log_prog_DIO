@@ -2,6 +2,8 @@
 
 - para calculos, verificação e manipulações
 
+- expressão = uma combinação de valores, variáveis e eoperadores que pode ser avaliada
+
 ### principais operadores
 
 <b> - aritmédicos
