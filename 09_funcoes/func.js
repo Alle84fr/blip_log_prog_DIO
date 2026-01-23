@@ -43,3 +43,12 @@ pronto()
 
 // fora da função
 mainChamar()
+
+function enviarDados(){
+    let nomeDados = "banco de dados"
+    console.log(`Salvando dados ${nomeDados}`)
+
+    if ( 3 === 3){
+        console.log("senha válida")
+    }
+}
