@@ -95,3 +95,46 @@ por_pao()
 Observação
 
 <b>def</b> cria a função, seria function ou fun das outras linguagens
+
+<h3>Observações</h3>
+
+Variáveis dentro da função, que não tem seu "espelho" fora, não funcionará fora
+
+```
+function somar(valor){
+    let nove = 9
+    let soma = valor + nove
+    console.log(`A soma de ${soma} e ${nove} = ${soma}`)
+
+    if(soma>60){
+        console.log("Maior de 60")
+    }
+}
+
+// main.js
+
+let valor = 58
+
+somar(valor)
+
+// atenção aqui
+console.log(soma)
+
+``````
+A variável <u>soma</u> é uma variável interna da função, ela não existe fora
+Ao rodas o retorno será:
+
+console.log(soma)
+            ^
+ReferenceError: soma is not defined
+
+Já a variável valor está fora, e ela pode ser chamanda
+
+<h3>default</h3>
+
+Parâmetro mais genérico
+
+Se não passar o valor no parâmetro, ele pega o valor pré definido, se passar, o valor a ser recebido será o declarado fora
+
+
+
