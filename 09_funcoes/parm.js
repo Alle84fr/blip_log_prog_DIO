@@ -2,7 +2,7 @@
 
 
 
-function somar(valor, i, str, nome = "Odalvo", ){
+function somar(valor, i, str, nome = "Odalvo" ){
     var nove = 9
     let soma = valor + nove
     console.log(`A soma de ${soma} e ${nove} = ${soma}`)
